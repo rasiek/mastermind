@@ -1,0 +1,42 @@
+
+h1 {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.res {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 1rem;
+}
+
+table {
+    border-spacing: 0 1rem;
+}
+td, tr {
+    text-align: left;
+}
+
+.container {
+    width: 50vw;
+    margin: auto;
+}
+
+.no-active {
+    display: none;
+}
+
+.new-game {
+    display: flex;
+    justify-content: flex-start;
+    height: 30px;
+    align-items: center;
+}
+
+.new-game p {
+    margin-right: 20px;
+}
